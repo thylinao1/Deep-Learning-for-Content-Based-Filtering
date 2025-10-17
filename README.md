@@ -32,3 +32,13 @@ That’s something you’d never get from just comparing Boolean vectors.
 And because it’s trained end-to-end, the whole model learns automatically what matters most for predicting whether a user will like a movie. 
 It’s not just about matching surface-level features anymore, it’s about discovering a deep, meaningful structure underneath the data. 
 That’s what makes this approach so much more powerful (and honestly, way more exciting) than simple vector matching.
+
+
+
+The recsysNN_utils.py module imported ### Utilities
+- `load_data()` – loads matrices, feature names, and metadata.
+- `pprint_train(...)` – quick visual sanity check for training slices.
+- `gen_user_vecs(...)` – repeats one user row across all items for batch scoring.
+- `print_pred_movies(...)` – shows top-N predicted titles.
+- `get_user_vecs(...)` – constructs (user,item) pairs and labels for evaluation.
+- `print_existing_user(...)` – side-by-side predicted vs. actual for a user.
