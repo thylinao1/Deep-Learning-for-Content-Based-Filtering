@@ -468,18 +468,3 @@ similarity = user_emb · movie_emb = Σ u_i * m_i
 - **MovieLens Dataset** – University of Minnesota research lab
 - **Two-Tower Architecture** – Inspired by YouTube's recommendation system (Covington et al., 2016)
 
----
-
-## 📄 License
-
-MIT License - See LICENSE file for details
-
----
-
-## 📧 Contact
-
-**Questions or collaboration?** Open an issue or reach out!
-
----
-
-*Built with ❤️ for exploring the intersection of deep learning and recommendation systems*
