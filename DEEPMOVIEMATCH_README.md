@@ -442,29 +442,5 @@ similarity = user_emb · movie_emb = Σ u_i * m_i
 | `get_user_vecs(...)` | Constructs (user, item) pairs and labels for evaluation |
 | `print_existing_user(...)` | Shows predicted vs. actual ratings side-by-side |
 
----
 
-## 🏆 Why This Matters
-
-> *"Traditional recommenders tell you what you asked for. Neural recommenders tell you what you didn't know you wanted."*
-
-**DeepMovieMatch demonstrates:**
-1. **Representation Learning** – The core skill behind modern AI (GPT, DALL-E, AlphaFold)
-2. **Production ML Patterns** – Two-tower architecture powers Google, Meta, Netflix at scale
-3. **End-to-End Thinking** – From raw features to business value (top-10 recommendations)
-
-**For ML/Quant Roles:** Shows ability to:
-- Design neural architectures for structured prediction
-- Optimize embeddings for similarity tasks (relevant to asset clustering, anomaly detection)
-- Build scalable inference pipelines
-- Translate complex models into actionable insights
-
----
-
-## 🙏 Acknowledgments
-
-- **TensorFlow/Keras** – Deep learning framework
-- **scikit-learn** – Preprocessing utilities
-- **MovieLens Dataset** – University of Minnesota research lab
-- **Two-Tower Architecture** – Inspired by YouTube's recommendation system (Covington et al., 2016)
 
